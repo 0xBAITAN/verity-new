@@ -583,8 +583,8 @@ ul {
   display: inline-block;
   padding: 17px 50px;
   border-radius: 5px;
-  background-color: #b08ead;
-  border: 2px solid #b08ead;
+  background-color: #dfc98c;
+  border: 2px solid #dfc98c;
   font-size: 15px;
   font-weight: 500;
   -webkit-transition: 0.5s;
@@ -596,7 +596,7 @@ ul {
 /* line 36, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_button.scss */
 .btn_1:hover {
   background-color: #fff;
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 @media (max-width: 991px) {
@@ -613,10 +613,10 @@ ul {
   padding: 18px 36px;
   border-radius: 5px;
   background-color: transparent;
-  border: 1px solid #b08ead;
+  border: 1px solid #dfc98c;
   font-size: 15px;
   font-weight: 700;
-  color: #b08ead;
+  color: #dfc98c;
   text-transform: uppercase;
   font-weight: 400;
   -webkit-transition: 0.5s;
@@ -625,7 +625,7 @@ ul {
 
 /* line 56, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_button.scss */
 .btn_3:hover {
-  background-color: #b08ead;
+  background-color: #dfc98c;
   color: #fff;
 }
 
@@ -658,7 +658,7 @@ ul {
 /* line 79, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_button.scss */
 .btn_2:hover {
   color: #fff !important;
-  background-color: #b08ead;
+  background-color: #dfc98c;
 }
 
 @media (max-width: 991px) {
@@ -673,7 +673,7 @@ ul {
 
 /* line 94, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_button.scss */
 .btn_4 {
-  color: #b08ead;
+  color: #dfc98c;
   font-size: 15px;
   font-weight: 700;
   margin-top: 53px;
@@ -709,7 +709,7 @@ ul {
   color: #fff;
   border: 1px solid #edeff2;
   text-transform: uppercase;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -789,7 +789,7 @@ ul {
 /* line 14, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog.scss */
@@ -1374,7 +1374,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1600,7 +1600,7 @@ ul {
 
 /* line 835, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #b08ead;
+  background: #dfc98c;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -1852,7 +1852,7 @@ ul {
 
 /* line 1201, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 1206, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog.scss */
@@ -2185,7 +2185,7 @@ ul {
 /* line 1496, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog.scss */
 .single_sidebar_widget .btn_1:hover {
   color: #b08ead !important;
-  border: 1px solid #b08ead;
+  border: 1px solid #dfc98c;
 }
 
 /*============ End Blog Single Styles  =============*/
@@ -2211,7 +2211,7 @@ ul {
 
 /* line 18, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p a {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 22, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_single_blog.scss */
@@ -2307,7 +2307,7 @@ ul {
   max-width: 1140px;
   z-index: 999;
   text-align: center;
-  background: #b08ead;
+  background: #dfc98c;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -2425,10 +2425,17 @@ ul {
   text-transform: capitalize;
 }
 
+.dropdown .dropdown-menu .dropdown-item i {
+color: #dfc98c !important;
+}
+
 .dropdown-menu .dropdown-item:hover {
   background-color: #dfc98c;
-  color: #0a0a0a;
+  color: black;
   text-shadow: 0.5px 0.5px #000;
+}
+.dropdown-menu .dropdown-item i:hover {
+  color: black;
 }
 
 @media (min-width: 991px) {
@@ -2497,7 +2504,7 @@ ul {
   .dropdown:hover .show {
     transform: scale(1);
     display: block;
-    color: #b08ead;
+    color: #dfc98c;
   }
 
   /* line 208, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
@@ -2608,7 +2615,7 @@ ul {
   content: "";
   left: 0;
   bottom: 0;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   width: 196px;
   height: 618px;
 }
@@ -2703,7 +2710,7 @@ ul {
 
 /* line 70, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 74, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
@@ -3264,7 +3271,7 @@ input:focus {
 
 /* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_trending_items.scss */
 .single_product_item h3 a:hover {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 44, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_trending_items.scss */
@@ -3292,7 +3299,7 @@ input:focus {
 .client_review {
   padding: 100px 0;
   text-align: center;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   position: relative;
 }
 
@@ -3697,7 +3704,7 @@ input:focus {
   line-height: 60px;
   padding: 0px 45px;
   border: 0px solid transparent;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -3744,7 +3751,7 @@ input:focus {
 
 /* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_best_seller.scss */
 .best_seller .single_product_item .single_product_text a {
-  color: #b08ead;
+  color: #dfc98c;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;
@@ -3897,7 +3904,7 @@ input:focus {
 /* line 37, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .single-product .product-img .p_icon a:hover {
   color: #fff;
-  background: #b08ead;
+  background: #dfc98c;
 }
 
 /* line 45, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -3940,7 +3947,7 @@ input:focus {
 
 /* line 82, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .single-product:hover .product-btm h4 {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* End Feature Product Area css
@@ -4187,8 +4194,8 @@ input:focus {
 /* line 300, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .p_filter_widgets .list li.active a:before,
 .p_filter_widgets .list li:hover a:before {
-  background: #b08ead;
-  border-color: #b08ead;
+  background: #dfc98c;
+  border-color: #dfc98c;
 }
 
 /* line 307, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -4338,7 +4345,7 @@ input:focus {
 
 /* line 448, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .product_top_bar .single_product_menu p span {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 453, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -4596,7 +4603,7 @@ input:focus {
 .s_product_text h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #b08ead;
+  color: #dfc98c;
   margin-bottom: 15px;
 }
 
@@ -4626,7 +4633,7 @@ input:focus {
 
 /* line 716, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .s_product_text .list li a.active {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 719, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -4795,9 +4802,9 @@ input:focus {
 
 /* line 862, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .product_description_area .nav.nav-tabs li a.active {
-  background: #b08ead;
+  background: #dfc98c;
   color: #fff;
-  border-color: #b08ead;
+  border-color: #dfc98c;
 }
 
 /* line 871, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -4964,8 +4971,8 @@ input:focus {
 
 /* line 1026, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .review_item .media .media-body .reply_btn:hover {
-  background: #b08ead;
-  border-color: #b08ead;
+  background: #dfc98c;
+  border-color: #dfc98c;
   color: #fff;
 }
 
@@ -5279,7 +5286,7 @@ input:focus {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background: #b08ead;
+  background: #dfc98c;
   display: inline-block;
   position: absolute;
   right: 3px;
@@ -5425,7 +5432,7 @@ input:focus {
 
 /* line 1443, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .check_title h2 a {
-  color: #b08ead;
+  color: #dfc98c;
   text-decoration: underline;
 }
 
@@ -5627,9 +5634,9 @@ input:focus {
 
 /* line 1588, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .tp_btn:hover {
-  background: #b08ead;
+  background: #dfc98c;
   color: #fff;
-  border-color: #b08ead;
+  border-color: #dfc98c;
 }
 
 /* line 1596, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -5713,7 +5720,7 @@ input:focus {
 
 /* line 1650, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .billing_details .contact_form .form-group .creat_account a {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 1658, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -5832,8 +5839,8 @@ input:focus {
 
 /* line 1776, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .order_box .payment_item.active h4:before {
-  background: #b08ead;
-  border-color: #b08ead;
+  background: #dfc98c;
+  border-color: #dfc98c;
 }
 
 /* line 1784, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -5850,7 +5857,7 @@ input:focus {
 
 /* line 1793, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .order_box .creat_account a {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 1798, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -6028,8 +6035,8 @@ input:focus {
 
 /* line 1930, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .radion_btn input[type="radio"]:checked~.check {
-  border: 1px solid #b08ead;
-  background: #b08ead;
+  border: 1px solid #dfc98c;
+  background: #dfc98c;
 }
 
 /* line 1935, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -6271,7 +6278,7 @@ input:focus {
 
 /* line 2102, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .s_product_text .like_us:hover {
-  background-color: #b08ead;
+  background-color: #dfc98c;
   color: #fff;
 }
 
@@ -6282,7 +6289,7 @@ input:focus {
 
 /* line 2109, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .s_product_text .btn_3:hover {
-  color: #b08ead;
+  color: #dfc98c;
   background-color: #fff;
   box-shadow: -14.142px 14.142px 20px 0px rgba(0, 0, 0, 0.1);
   border: 1px solid #fff;
@@ -6328,7 +6335,7 @@ input:focus {
 
 /* line 2151, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
 .card_area .social_icon a:hover {
-  background-color: #b08ead;
+  background-color: #dfc98c;
 }
 
 /* line 2156, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_product.scss */
@@ -6500,7 +6507,7 @@ input:focus {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -6588,7 +6595,7 @@ input:focus {
 
 /* line 144, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_new_arrival.scss */
 .new_arrival .single_arrivel_item .hover_text .social_icon a:hover {
-  background-color: #b08ead;
+  background-color: #dfc98c;
   color: #fff;
 }
 
@@ -6622,7 +6629,7 @@ input:focus {
 .new_arrival .active {
   position: relative;
   z-index: 1;
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 173, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_new_arrival.scss */
@@ -6633,7 +6640,7 @@ input:focus {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background-color: #b08ead;
+  background-color: #dfc98c;
 }
 
 /************ shipping details css here **************/
@@ -6728,7 +6735,7 @@ input:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   opacity: 0;
   visibility: hidden;
   z-index: 1;
@@ -6783,7 +6790,7 @@ input:focus {
 
 /* line 6, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
 .confirmation_part .confirmation_tittle span {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 11, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_confirmation_part.scss */
@@ -6897,7 +6904,7 @@ sup,
 sub,
 u,
 del {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 93, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
@@ -7070,28 +7077,28 @@ h6 {
 /* line 218, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #b08ead;
+  background: #dfc98c;
   border: 1px solid transparent;
 }
 
 /* line 222, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #b08ead;
-  border: 1px solid #b08ead;
+  color: #dfc98c;
+  border: 1px solid #dfc98c;
   background: #fff;
 }
 
 /* line 228, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .genric-btn.primary-border {
-  color: #b08ead;
-  border: 1px solid #b08ead;
+  color: #dfc98c;
+  border: 1px solid #dfc98c;
   background: #fff;
 }
 
 /* line 232, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #b08ead;
+  background: #dfc98c;
   border: 1px solid transparent;
 }
 
@@ -7249,7 +7256,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #b08ead;
+  border-left: 2px solid #dfc98c;
 }
 
 /* line 354, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
@@ -7404,7 +7411,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #b08ead;
+  border: 3px solid #dfc98c;
   background: #fff;
   top: 4px;
   left: 0;
@@ -7419,7 +7426,7 @@ h6 {
 /* line 476, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #b08ead;
+  color: #dfc98c;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -7434,7 +7441,7 @@ h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #b08ead;
+  color: #dfc98c;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -7449,7 +7456,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #b08ead;
+  color: #dfc98c;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -7532,7 +7539,7 @@ h6 {
 /* line 569, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #b08ead;
+  border: 1px solid #dfc98c;
 }
 
 /* line 575, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
@@ -7600,7 +7607,7 @@ h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #b08ead;
+  background: #dfc98c;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -7691,7 +7698,7 @@ h6 {
 
 /* line 697, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .primary-switch input:checked+label:before {
-  background: #b08ead;
+  background: #dfc98c;
 }
 
 /* line 705, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
@@ -8078,13 +8085,13 @@ h6 {
 
 /* line 1023, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #b08ead;
+  color: #dfc98c;
   background: transparent;
 }
 
 /* line 1027, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #b08ead;
+  color: #dfc98c;
   background: transparent;
 }
 
@@ -8141,13 +8148,13 @@ h6 {
 
 /* line 1068, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #b08ead;
+  color: #dfc98c;
   background: transparent;
 }
 
 /* line 1072, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #b08ead;
+  color: #dfc98c;
   background: transparent;
 }
 
@@ -8335,7 +8342,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   border-radius: 50%;
 }
 
@@ -8432,7 +8439,7 @@ h6 {
 .blog_part .single-home-blog .card h5:hover {
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 139, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_blog_part.scss */
@@ -8514,7 +8521,7 @@ h6 {
 
 /* line 23, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 /* line 29, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
@@ -8544,7 +8551,7 @@ h6 {
 /* line 52, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
 .form-contact .form-group .button-contactForm {
   color: #b08ead !important;
-  border: 1px solid #b08ead;
+  border: 1px solid #dfc98c;
 }
 
 /* line 55, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
@@ -8585,13 +8592,13 @@ h6 {
 
 /* line 81, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
 .form-contact .form-group .btn_1:hover {
-  border: 1px solid #b08ead;
+  border: 1px solid #dfc98c;
   color: #b08ead !important;
 }
 
 /* line 84, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
 .form-contact .form-group .btn_1:hover i {
-  color: #b08ead;
+  color: #dfc98c;
   color: #fff !important;
 }
 
@@ -8800,7 +8807,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #b08ead;
+  background-color: #dfc98c;
   background-image: url('../img/category/back-cat.jpg');
 }
 
@@ -9008,17 +9015,17 @@ h6 {
   padding: 17px 50px;
   border-radius: 5px;
   background-color: white;
-  border: 2px solid #b08ead;
+  border: 2px solid #dfc98c;
   font-size: 15px;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-transform: capitalize;
-  color: #b08ead;
+  color: #dfc98c;
 }
 
 .btn_carousel:hover {
-  background-color: #b08ead;
+  background-color: #dfc98c;
   color: white;
   border-color: white;
 }
@@ -9072,24 +9079,6 @@ h6 {
 
 .issue-page-heading {
   text-align: center;
-}
-
-.navbar-color {
-  background-color: #dfc98c;
-  box-shadow: 2px 2px 1px #999;
-}
-
-.social-media-icon {
-  padding: 0;
-  font-size: 16px;
-  margin-right: 0.75em;
-  margin-left: 0.75em;
-  color: #181711;
-}
-
-.social-media-icon:hover svg,
-.social-media-icon:hover i {
-  font-weight: bolder;
 }
 
 .footer_part .footer_iner .footer_menu_item a:hover {
